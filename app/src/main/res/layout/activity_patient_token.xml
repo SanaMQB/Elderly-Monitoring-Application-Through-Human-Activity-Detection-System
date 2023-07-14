@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#343434"
+    tools:context=".patientToken">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="415dp"
+        android:layout_marginBottom="500dp" />
+
+    <TextView
+        android:layout_width="311dp"
+        android:layout_height="102dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="cursive"
+        android:text="Fall Detection"
+        android:textColor="#E6A73D"
+        android:textSize="50sp" />
+    <ImageView
+        android:layout_width="88dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:text="Here paste the Care taker's Token" />
+
+        <EditText
+            android:id="@+id/edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:hint="Enter token"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="30dp"
+            android:background="#E6A73D"
+            android:paddingLeft="50dp"
+            android:paddingTop="10dp"
+            android:paddingRight="50dp"
+            android:paddingBottom="10dp"
+            android:shadowColor="#E6A73D"
+            android:shadowRadius="@integer/material_motion_duration_medium_2"
+            android:text="save" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="#E6A73D"
+            android:paddingLeft="50dp"
+            android:paddingTop="10dp"
+            android:paddingRight="50dp"
+            android:paddingBottom="10dp"
+            android:text="next" />
+    </LinearLayout>
+
+</RelativeLayout>
