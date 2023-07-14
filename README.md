@@ -38,7 +38,7 @@ example, makes it possible to communicate with them via an app that alerts careg
 when a fall is detected on their mobile device
 
 
-## The goal of the project is to utilize mobile sensors for real-time activity detection of 
+### The goal of the project is to utilize mobile sensors for real-time activity detection 
 patients that are meant to be monitored. Such monitoring can be helpful in the early 
 detection of dangerous activities such as falls to provide necessary help in time.
 The project objectives are given below:
@@ -49,19 +49,26 @@ samples.
 4. Provide notification on caregiver mobile in case of fall detection
 
    
-## Implementation and Tools Details:
-Google collab for (for model implementation)
-Google collab using language (python)
+# Implementation and Tools Details:
+Google collab for (for model implementation in Python ) here's the link    https://github.com/SanaMQB/Model-Integration-Python/tree/main
+
 Android studio (for making android app)
+
 Android studio using language(java)
+
 Flask (for model connect with app) tool used (PyCharm)
+
 Flask Rest API 
+
 API (volley) uses in android connect to sever and take prediction
+
 Heroku (work as a sever for using this app)
+
 Firebase (used for send notification)
 
 
-## Functional Requirements:
+
+### Functional Requirements:
 NO Requirement Description
 FR1 Trained Model integration: The model system works when the model 
 takes data from the sensors then preprocess 
